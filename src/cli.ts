@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { basename } from 'node:path';
 import process from 'node:process';
-import { analyze, deobfuscate, listPasses, PRESET_TECHNIQUES } from 'jsrift';
+import { analyze, deobfuscate, listPasses, PRESET_TECHNIQUES } from '@jsrift/core';
 import type {
   DeobfuscateOptions,
   PerformanceOptions,
@@ -10,7 +10,7 @@ import type {
   TechniqueId,
   TechniqueOverride,
   TechniqueOverrides,
-} from 'jsrift';
+} from '@jsrift/core';
 import { HELP_TEXT, parseArgs, type CliOptions } from './args.js';
 import {
   createProgressRenderer,

@@ -1,4 +1,4 @@
-# jsrift-cli
+# @jsrift/cli
 
 Command-line front end for the `jsrift` deobfuscation engine. It reads
 JavaScript, TypeScript or JSX, runs the pass pipeline, and writes readable source.
@@ -6,10 +6,10 @@ JavaScript, TypeScript or JSX, runs the pass pipeline, and writes readable sourc
 ## Install
 
 ```sh
-npm install -g jsrift-cli        # installs the `jsrift` command
+npm install -g @jsrift/cli        # installs the `jsrift` command
 jsrift bundle.js -o clean.js --stats
 
-npx jsrift-cli bundle.js -o clean.js    # or without installing
+npx @jsrift/cli bundle.js -o clean.js    # or without installing
 ```
 
 Node 20.19 or later is required. The only dependency is the `jsrift` engine;

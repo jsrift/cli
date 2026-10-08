@@ -1,5 +1,5 @@
 {
-  "name": "jsrift-cli",
+  "name": "@jsrift/cli",
   "version": "0.1.0",
   "description": "Command-line interface for the jsrift JavaScript deobfuscator.",
   "license": "MIT",
@@ -7,7 +7,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsrift/cli.git"
+    "url": "git+https://github.com/jsrift/cli.git"
   },
   "homepage": "https://jsrift.github.io",
   "bugs": {
@@ -37,7 +37,7 @@
     "prepack": "npm run build"
   },
   "dependencies": {
-    "jsrift": "^0.1.0"
+    "@jsrift/core": "^0.1.0"
   },
   "devDependencies": {
     "@types/node": "^24.5.0",

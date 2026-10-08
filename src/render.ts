@@ -1,4 +1,4 @@
-import { PRESET_TECHNIQUES, STAGE_ORDER, listPasses } from 'jsrift';
+import { PRESET_TECHNIQUES, STAGE_ORDER, listPasses } from '@jsrift/core';
 import type {
   DeobfuscateMetadata,
   Detection,
@@ -9,7 +9,7 @@ import type {
   TechniqueFlags,
   TechniqueId,
   analyze,
-} from 'jsrift';
+} from '@jsrift/core';
 
 type AnalysisResult = ReturnType<typeof analyze>;
 type PassInfo = ReturnType<typeof listPasses>[number];

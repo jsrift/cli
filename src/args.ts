@@ -1,5 +1,5 @@
-import { PRESET_TECHNIQUES, listPasses } from 'jsrift';
-import type { Language, PresetName, TechniqueId } from 'jsrift';
+import { PRESET_TECHNIQUES, listPasses } from '@jsrift/core';
+import type { Language, PresetName, TechniqueId } from '@jsrift/core';
 
 export const TECHNIQUE_IDS = Object.keys(PRESET_TECHNIQUES.balanced) as TechniqueId[];
 export const PRESET_NAMES = Object.keys(PRESET_TECHNIQUES) as PresetName[];
